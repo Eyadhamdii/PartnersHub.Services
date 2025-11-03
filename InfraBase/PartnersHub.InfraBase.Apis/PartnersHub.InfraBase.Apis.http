@@ -1,0 +1,6 @@
+@PartnersHub.InfraBase.Apis_HostAddress = http://localhost:5280
+
+GET {{PartnersHub.InfraBase.Apis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

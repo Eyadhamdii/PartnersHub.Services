@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Challenge\Quries\**" />
+	  <EmbeddedResource Remove="Challenge\Quries\**" />
+	  <None Remove="Challenge\Quries\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\PartnersHub.InnovationHub.Domain\PartnersHub.InnovationHub.Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="EntityFramework" Version="6.2.0" />
+	  <PackageReference Include="FluentValidation" Version="12.0.0" />
+	  <PackageReference Include="MediatR" Version="13.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+	</ItemGroup>
+
+</Project>

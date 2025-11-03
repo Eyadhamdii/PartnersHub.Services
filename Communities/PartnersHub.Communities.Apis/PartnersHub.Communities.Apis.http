@@ -1,0 +1,6 @@
+@PartnersHub.Communities.Apis_HostAddress = http://localhost:5272
+
+GET {{PartnersHub.Communities.Apis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
