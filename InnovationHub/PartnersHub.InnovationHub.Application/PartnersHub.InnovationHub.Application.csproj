@@ -27,8 +27,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="AdminChallenge\Commands\" />
-	  <Folder Include="AdminChallenge\Quieries\" />
+	  <Folder Include="AdminChallenge\Commands\AdminChallengeRequest\" />
 	</ItemGroup>
 
 </Project>
