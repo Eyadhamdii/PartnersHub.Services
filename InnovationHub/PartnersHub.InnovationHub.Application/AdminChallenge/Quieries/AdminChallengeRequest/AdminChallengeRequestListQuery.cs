@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PartnersHub.InnovationHub.Application.AdminChallenge.Quieries.AdminChallengeRequest
 {
-    internal class AdminnChallengeRequestListQuery
+    internal class AdminChallengeRequestListQuery
     {
     }
 }
